@@ -1,29 +1,25 @@
-# Raylib-Quickstart
-A simple cross platform template for setting up a project with the bleeding edge raylib code.
-Works with C or C++.
+# Start-Missons-End pathfinder, a lecture final project
+- Made for the final project of programming design 1 lecture in 2025.
+- Made by William Lin in PME department, ID: 114033213.
+- Made with Raylib, modified from Raylib quickstart.
 
 ## Supported Platforms
-Quickstart supports the main 3 desktop platforms:
+Raylib quickstart supports the main 3 desktop platforms:
 * Windows
 * Linux
 * MacOS
 
-# Naming projects
-Do not name your game project 'raylib', it will conflict with the raylib library.
-
 # VSCode Users (all platforms)
 *Note* You must have a compiler toolchain installed in addition to vscode.
 
-1. Download the quickstart
-2. Rename the folder to your game name
-3. Open the folder in VSCode
-4. Run the build task ( CTRL+SHIFT+B or F5 )
-5. You are good to go
+1. Download the repository
+2. Open the folder in VSCode
+3. Run the build task ( CTRL+SHIFT+B or F5 )
+4. You are good to go
 
 # Windows Users
 There are two compiler toolchains available for windows, MinGW-W64 (a free compiler using GCC), and Microsoft Visual Studio
 ## Using MinGW-W64
-* Rename the folder to your game name
 * Double click the `build-MinGW-W64.bat` file
 * CD into the folder in your terminal
   * if you are using the W64devkit and have not added it to your system path environment variable, you must use the W64devkit.exe terminal, not CMD.exe
@@ -46,14 +42,11 @@ To your path environment variable so that the compiler that came with raylib can
 DO NOT INSTALL ANOTHER MinGW-W64 from another source such as msys2, you don't need it.
 
 ## Microsoft Visual Studio
-* Rename the folder to your game name
 * Run `build-VisualStudio2022.bat`
 * double click the `.sln` file that is generated
-* develop your game
 * you are good to go
 
 # Linux Users
-* Rename the folder to your game name
 * CD into the build folder
 * run `./premake5 gmake`
 * CD back to the root
@@ -61,7 +54,6 @@ DO NOT INSTALL ANOTHER MinGW-W64 from another source such as msys2, you don't ne
 * you are good to go
 
 # MacOS Users
-* Rename the folder to your game name
 * CD into the build folder
 * run `./premake5.osx gmake`
 * CD back to the root
